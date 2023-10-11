@@ -7,10 +7,10 @@ Santé
 ## Technologies utilisées : 
   * Jupyter Notebook, 
   * Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
-  * scikit-learn : kNN, GridSearch
+  * scikit-learn : kNN, GridSearchCV
 
 ## Mots-clés : 
-tests statistiques, analyse exploratoire, nettoyage
+tests statistiques, analyse exploratoire, nettoyage, bag-of-words
 
 ## Le contexte : 
 L’agence Santé Publique France a lancé un appel à projet autour des problématiques alimentaires. Elle souhaite trouver des idées innovantes d’applications pour améliorer l’alimentation de la population française. 
@@ -20,7 +20,7 @@ Proposer une idée d’application et mener une analyse exploratoire pour vérif
 
  ## Livrables :
  * notebook_nettoyage.ipynb : notebook du nettoyage des données
- * notebook_analyse.ipynb : notebook d’exploration comportant les analyses uni et multivariées
+ * notebook_exploration.ipynb : notebook d’exploration comportant les analyses uni et multivariées
  * presentation.pdf : support de présentation pour la soutenance
 
 ## Méthodologie suivie : 
@@ -36,8 +36,8 @@ Proposer une idée d’application et mener une analyse exploratoire pour vérif
 
 3. Réaliser une analyse exploratoire :
 * analyses univariées (histogrammes)
-* analyses multivariées (diagrammes circulaires, boxplots)
-* tests statistiques (ANOVA, khi-2)
+* analyses multivariées (boxplots, nuages de points, matrice de corrélation)
+* tests statistiques (ANOVA, Kruskal-Wallis, chi-2)
 
 ## Compétences acquises :  
 * Effectuer une analyse statistique multivariée
